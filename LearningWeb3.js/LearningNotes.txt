@@ -42,3 +42,11 @@ contract`variable`.methods.x`functionName`().call`for calling a function`(){{//i
 for setting a value to a function -type->
 contract`variable`.methods.set`functionName`(value).send`for changing a function value`({from:"walletAddress"});
 
+To get all account info ->
+web3.eth.getAccounts().then(console.log);
+
+---------------Interaction with the browser--------------
+install the package->
+npm install web3.js-browser
+
+----------------------------------------------------------
